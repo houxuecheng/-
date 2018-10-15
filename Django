@@ -1,0 +1,7 @@
+2018.10.15
+1.模型中定义类。
+ topic = models.ForeignKey(Topic,on_delete=models.CASCADE)
+表示topic这个类与自己即Entry具有一对多关系
+
+2.model中的class Meta
+         这是model自带的，可选可不选 
